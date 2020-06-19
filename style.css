@@ -1,0 +1,38 @@
+.ms-filter-tabs {
+    font-family: sans-serif;
+    background: #fff;
+}
+
+.ms-filter-tabs__head {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ms-filter-tab__trigger {
+    flex: 1;
+    color: #0289D1;
+    padding: 18px 32px;
+    font-size: 24px;
+    border: none;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.ms-filter-tab__trigger.mod-active {
+    color: #fff;
+    background: #0289D1;
+}
+
+.ms-filter-tab__trigger:hover,
+.ms-filter-tab__trigger:focus {
+    color: #fff;
+    background: #00a5ff;
+    outline: none;
+}
+
+.ms-filter-tab__form {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
